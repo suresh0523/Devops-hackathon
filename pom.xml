@@ -71,6 +71,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <executions>
                     <execution>
@@ -78,6 +79,9 @@
                         <phase>none</phase>
                     </execution>
                 </executions>
+                <configuration>
+    <useDefaultManifestFile>true</useDefaultManifestFile>
+  </configuration>
             </plugin>
 
         </plugins>
