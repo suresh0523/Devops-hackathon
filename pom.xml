@@ -48,7 +48,7 @@
     <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://54.152.82.195:8081/nexus/content/repositories/releases</url>
+    <url>http://18.232.116.33:8081/nexus/content/repositories/testing/</url>
   </repository>
 </distributionManagement>
 
