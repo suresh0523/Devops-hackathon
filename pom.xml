@@ -79,9 +79,7 @@
                         <phase>none</phase>
                     </execution>
                 </executions>
-                <configuration>
-    <useDefaultManifestFile>true</useDefaultManifestFile>
-  </configuration>
+                
             </plugin>
 
         </plugins>
