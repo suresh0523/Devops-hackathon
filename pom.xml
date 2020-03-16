@@ -50,7 +50,13 @@
     <id>nexus</id>
     <url>http://18.232.116.33:8081/nexus/content/repositories/testing/</url>
   </repository>
-
+</distributionManagement> -->
+    <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+</distributionManagement>
 
     <build>
         <plugins>
@@ -76,13 +82,7 @@
 
         </plugins>
     </build>
-</distributionManagement> -->
-    <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-   </snapshotRepository>
-</distributionManagement>
+
     <repositories>
      <repository>
       <id>jboss</id>
