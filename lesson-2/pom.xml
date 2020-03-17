@@ -10,7 +10,7 @@
 
     <groupId>com.workfusion.lab</groupId>
     <artifactId>lesson-2</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <hypermodel.id>ml-sdk-lesson-2</hypermodel.id>
