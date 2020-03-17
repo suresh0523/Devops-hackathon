@@ -10,7 +10,7 @@
 
     <groupId>com.workfusion.lab</groupId>
     <artifactId>ml-sdk-lessons</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0</version>
 
     <properties>
