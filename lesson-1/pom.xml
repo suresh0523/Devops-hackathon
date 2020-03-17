@@ -10,6 +10,7 @@
 
     <groupId>com.workfusion.lab</groupId>
     <artifactId>lesson-1</artifactId>
+     <packaging>jar</packaging>
     <version>1.0</version>
 
     <properties>
