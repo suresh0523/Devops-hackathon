@@ -47,18 +47,12 @@
         
 
     </dependencies>
-    <distributionManagement>
+  <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://3.91.28.193:8081/nexus/content/repositories/releases/</url>
+    <url>http://52.91.67.80:8081/nexus/content/repositories/releases</url>
   </repository>
-</distributionManagement> 
-  <!--  <distributionManagement>
-   <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-   </snapshotRepository>
-</distributionManagement> -->
+</distributionManagement>
 
     <build>
         <plugins>
